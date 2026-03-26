@@ -3,7 +3,7 @@ package ailab.bigdata.fileiodemo;
 import java.io.IOException;
 import java.util.ArrayList;
 
-public class FileIODemo1 {
+public class FileIODemo {
 
     public static void main(String[] args) {
         System.out.println("=========================");
