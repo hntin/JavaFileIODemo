@@ -20,7 +20,9 @@ public class FileIODemo {
         students.add(new Student(4, "C ", 7.8));
         students.add(new Student(5, "C ", 7.9));
         students.add(new Student(6, "C ", 8.0));
-        
+        students.add(new Student(7, "C ", 7.9));
+        students.add(new Student(8, "C ", 8.0));
+
         Student s = new Student();
         try {
             s.writeStudents("/home/tinhuynh/Documents/students.txt", students);
