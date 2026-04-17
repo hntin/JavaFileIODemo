@@ -32,9 +32,9 @@ public class FileIODemo {
 
         try {
             students = s.readStudents("/home/tinhuynh/Documents/students.txt");
-            System.out.println(students.get(0).getId() 
-                    + students.get(0).getName() + 
-                    students.get(0).getGpa());
+            System.out.println(students.get(0).getId()
+                    + students.get(0).getName()
+                    + students.get(0).getGpa());
         } catch (IOException e) {
             e.printStackTrace();
         }
