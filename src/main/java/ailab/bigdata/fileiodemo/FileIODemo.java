@@ -22,6 +22,7 @@ public class FileIODemo {
         students.add(new Student(6, "C ", 8.0));
         students.add(new Student(7, "C ", 7.9));
         students.add(new Student(8, "C ", 8.0));
+        students.add(new Student(8, "C ", 9.0));
 
         Student s = new Student();
         try {
